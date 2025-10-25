@@ -11,6 +11,17 @@ body {
     justify-content: space-between;
 }
 
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .section-one {
     display: flex;
 }
