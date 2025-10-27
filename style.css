@@ -65,7 +65,7 @@ font-weight: 900;
     text-wrap: wrap;
 }
 
-button {
+.button0 {
     background-color: #3882F6;
     color: white;
     font-weight: 900;
@@ -131,6 +131,7 @@ div img {
 .author {
     display: flex;
     justify-content: end;
+    font-size: 25px;
     font-weight: 900;
 }
 
@@ -138,12 +139,11 @@ div img {
 .section-four{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #3882F6;
     padding: 40px;
     margin: 50px;
-    gap: 100px;
     border-radius: 10px;
 }
 
@@ -158,6 +158,16 @@ div img {
     font-size: 15px;
 }
 
+.button1 {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    font-weight: 900;
+    padding: 5px;
+    width: 100px;
+}
+
 .footer {
     display: flex;
     justify-content: center;
@@ -167,5 +177,4 @@ div img {
     font-size: 10px;
     margin: 0;
     padding: 20px
-    
 }
