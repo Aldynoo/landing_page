@@ -1,4 +1,3 @@
-Landing Page
 A simple landing page built as part of The Odin Project. Practice in layout and styling.
 
 What I Learned:
