@@ -115,27 +115,25 @@ div img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     margin: 0;
     padding: 100px;
     background-color: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
-    font-weight: 300;
 }
 
 .quote {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 500px;
 }
 
-p{
+.author {
     display: flex;
-    justify-content: flex-end;
-    text-align: end;
+    justify-content: end;
+    font-weight: 900;
 }
+
 
 .section-four{
     display: flex;
@@ -149,7 +147,16 @@ p{
     border-radius: 10px;
 }
 
+.main-text-2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
 
+.text-2 {
+    color: white;
+    font-size: 15px;
+}
 
 .footer {
     display: flex;
