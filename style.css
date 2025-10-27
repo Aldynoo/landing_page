@@ -1,15 +1,22 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Arial, Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .header, .section-one{
     margin: 0;
-    padding: 30px;
+    padding: 30px 40px;
     display: flex;
     background-color: #1F2937;
     align-items: center;
     justify-content: space-between;
 }
+
+.section-one{
+padding-bottom: 100px;
+}
+
 
 .logo {
 font-size: 24px;
@@ -23,9 +30,16 @@ ul {
     gap: 20px;
 }
 
-img {
-    width: 300px;
-    height: 200px;
+.placeholder {
+    background-color: gray;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 180px;
+    margin: 20px;
+    padding: 0;
 }
 
 a {
@@ -33,9 +47,6 @@ a {
     color: white;
 }
 
-.section-one {
-    display: flex;
-}
 
 .main-text {
 font-size: 48px;
@@ -46,6 +57,7 @@ font-weight: 900;
 .text {
     font-size: 18px;
     color: #E5E7EB;
+    padding-bottom: 5px;
 }
 
 button {
@@ -54,6 +66,7 @@ button {
     padding: 5px;
     border-radius: 10px;
     border-color: #3882F6;
+    width: 100px;
 
 }
 
@@ -72,9 +85,13 @@ button {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    padding: 0;
+    margin: 30px;
 }
 
-.box {
-    border-radius: 20px;
+img {
+    width: 200px;
+    height: 200px;
     border-color: #3882F6;
+    border-radius: 20px;
 }
